@@ -36,7 +36,9 @@ public class ApiDemoTest extends Base {
 		p.Dependencies.click();
 		d.CheckBox.click();
 		d.WifiSettings.click();
+		//Send the supplied text to the WIFI name
 		d.EditText.sendKeys(text.toString());
+		//Click the second of the buttons
 		d.Buttons.get(1).click();
 		
 		service.stop();
