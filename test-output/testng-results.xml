@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="131111" started-at="2021-01-14T14:44:45 GMT" finished-at="2021-01-14T14:46:56 GMT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="131111" started-at="2021-01-14T14:44:45 GMT" finished-at="2021-01-14T14:46:56 GMT">
+      <class name="practice.AppiumFramework.ApiDemoTest">
+        <test-method status="PASS" signature="validateWifi(java.lang.Object)[pri:0, instance:practice.AppiumFramework.ApiDemoTest@7cbd213e]" name="validateWifi" duration-ms="39448" started-at="2021-01-14T14:45:45 GMT" data-provider="InputData" finished-at="2021-01-14T14:46:24 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWifi -->
+        <test-method status="PASS" signature="validateWifi(java.lang.Object)[pri:0, instance:practice.AppiumFramework.ApiDemoTest@7cbd213e]" name="validateWifi" duration-ms="31959" started-at="2021-01-14T14:46:24 GMT" data-provider="InputData" finished-at="2021-01-14T14:46:56 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#!$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWifi -->
+      </class> <!-- practice.AppiumFramework.ApiDemoTest -->
+      <class name="practice.AppiumFramework.Ecommerce_tc_4">
+        <test-method status="PASS" signature="killNodes()[pri:0, instance:practice.AppiumFramework.Ecommerce_tc_4@52f759d7]" name="killNodes" is-config="true" duration-ms="3051" started-at="2021-01-14T14:44:45 GMT" finished-at="2021-01-14T14:44:48 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killNodes -->
+        <test-method status="PASS" signature="totalValidation()[pri:0, instance:practice.AppiumFramework.Ecommerce_tc_4@52f759d7]" name="totalValidation" duration-ms="56538" started-at="2021-01-14T14:44:48 GMT" finished-at="2021-01-14T14:45:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- practice.AppiumFramework.Ecommerce_tc_4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+practice\AppiumFramework\Base.class
+pageObjects\HomePage.class
+pageObjects\CheckoutPage.class
+practice\AppiumFramework\Utilities.class
+resources\Listeners.class
+resources\ExtentReporterNG.class
+pageObjects\Dependencies.class
+practice\AppiumFramework\App.class
+practice\AppiumFramework\TestData.class
+pageObjects\Preferences.class
+pageObjects\FormPage.class
