@@ -36,7 +36,6 @@ public class ApiDemoTest extends Base {
 		p.Dependencies.click();
 		d.CheckBox.click();
 		d.WifiSettings.click();
-//		d.EditText.sendKeys("hello");
 		d.EditText.sendKeys(text.toString());
 		d.Buttons.get(1).click();
 		
