@@ -49,16 +49,6 @@ public class Ecommerce_tc_4 extends Base {
 		formpage.getCountrySelect().click();
 		u.scrollToText(country);
 		driver.findElement(By.xpath("//android.widget.TextView[@text='"+country+"']")).click();
-		
-		
-		//driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys(name);
-		//driver.hideKeyboard();
-		
-//		driver.findElement(By.id("com.androidsample.generalstore:id/radio"+gender)).click();
-//		
-//		driver.findElement(By.id("com.androidsample.generalstore:id/spinnerCountry")).click();
-//		driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\""+country+"\"))");
-//		driver.findElement(By.xpath("//android.widget.TextView[@text='"+country+"']")).click();
 		driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
 				
 		driver.findElements(By.id("com.androidsample.generalstore:id/productAddCart")).get(0).click();
